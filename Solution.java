@@ -82,6 +82,8 @@ public class Solution {
 class Point {
 
     int pointValue;
+    
+    //Cumulative '1' that could form a plus sign: above, below, left and right.
     int left;
     int right;
     int down;
